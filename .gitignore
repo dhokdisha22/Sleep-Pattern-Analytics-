@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data / model artifacts
+data/processed/*.csv
+models/*.pkl
+models/*.joblib
+outputs/charts/*
+outputs/reports/*
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
+
+# Environment variables
+.env
+.streamlit/secrets.toml
